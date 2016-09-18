@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "34F4F161C6D744964F30CF8882E94B262B2C49CC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "34F4F161C6D744964F30CF8882E94B262B2C49CC" : 0,
+    "f09466a1-9243-7148-848b-6bbb744640e8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E15E5A4B-4544-44C7-9F2F-8F07CC15FC11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "34F4F161C6D744964F30CF8882E94B262B2C49CC" : "NewTD",
+    "f09466a1-9243-7148-848b-6bbb744640e8" : "MAC_DATA"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TongDao",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NewTD\/TongDao.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zyhndesign\/NewTD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34F4F161C6D744964F30CF8882E94B262B2C49CC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.137\/svn\/DesignDoc",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f09466a1-9243-7148-848b-6bbb744640e8"
+    }
+  ]
+}

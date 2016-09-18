@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoryViewController">
+            <connections>
+                <outlet property="view" destination="Aiv-wP-kDd" id="kD1-OR-hdw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Aiv-wP-kDd">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1336"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="pRD-PB-7JI">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="820"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="background_pattern1black" translatesAutoresizingMaskIntoConstraints="NO" id="nRh-9z-2iM">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="123"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="sec_artifacts" translatesAutoresizingMaskIntoConstraints="NO" id="PSs-ty-Lle">
+                    <rect key="frame" x="299" y="306" width="426" height="337"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="background_pattern2black" translatesAutoresizingMaskIntoConstraints="NO" id="e9S-6m-ZjL">
+                    <rect key="frame" x="0.0" y="741" width="1024" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="title3" translatesAutoresizingMaskIntoConstraints="NO" id="bzx-yS-NGN">
+                    <rect key="frame" x="315" y="800" width="395" height="60"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="150" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUy-mD-wp7">
+                    <rect key="frame" x="0.0" y="872" width="1024" height="430"/>
+                </scrollView>
+                <pageControl opaque="NO" tag="151" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-PT-Pqr">
+                    <rect key="frame" x="493" y="1300" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="changePage:" destination="-1" eventType="valueChanged" id="hj8-EC-yLl"/>
+                    </connections>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background3" width="1024" height="768"/>
+        <image name="background_pattern1black" width="960" height="117"/>
+        <image name="background_pattern2black" width="960" height="73"/>
+        <image name="sec_artifacts" width="333" height="203"/>
+        <image name="title3" width="245" height="38"/>
+    </resources>
+</document>

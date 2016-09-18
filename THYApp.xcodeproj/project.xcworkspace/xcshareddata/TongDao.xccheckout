@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E15E5A4B-4544-44C7-9F2F-8F07CC15FC11</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TongDao</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>34F4F161C6D744964F30CF8882E94B262B2C49CC</key>
+		<string>https://github.com/zyhndesign/NewTD.git</string>
+		<key>f09466a1-9243-7148-848b-6bbb744640e8</key>
+		<string>https://192.168.1.137/svn/DesignDoc</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NewTD/TongDao.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>34F4F161C6D744964F30CF8882E94B262B2C49CC</key>
+		<string>../../..</string>
+		<key>f09466a1-9243-7148-848b-6bbb744640e8</key>
+		<string>../../../../MAC_DATA</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zyhndesign/NewTD.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>34F4F161C6D744964F30CF8882E94B262B2C49CC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f09466a1-9243-7148-848b-6bbb744640e8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MAC_DATA</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>34F4F161C6D744964F30CF8882E94B262B2C49CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NewTD</string>
+		</dict>
+	</array>
+</dict>
+</plist>
