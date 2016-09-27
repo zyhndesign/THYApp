@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoryViewController">
@@ -15,43 +16,60 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="1336"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="pRD-PB-7JI">
-                    <rect key="frame" x="0.0" y="0.0" width="1024" height="820"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="background_pattern1black" translatesAutoresizingMaskIntoConstraints="NO" id="nRh-9z-2iM">
-                    <rect key="frame" x="0.0" y="0.0" width="1024" height="123"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="pRD-PB-7JI">
+                    <frame key="frameInset" width="1024" height="315"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="sec_artifacts" translatesAutoresizingMaskIntoConstraints="NO" id="PSs-ty-Lle">
-                    <rect key="frame" x="299" y="306" width="426" height="337"/>
+                    <frame key="frameInset" minX="299" minY="147" width="518" height="377"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="background_pattern2black" translatesAutoresizingMaskIntoConstraints="NO" id="e9S-6m-ZjL">
-                    <rect key="frame" x="0.0" y="741" width="1024" height="80"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="title3" translatesAutoresizingMaskIntoConstraints="NO" id="bzx-yS-NGN">
-                    <rect key="frame" x="315" y="800" width="395" height="60"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="background_pattern4" translatesAutoresizingMaskIntoConstraints="NO" id="zJj-Y1-wp7">
+                    <frame key="frameInset" minY="649" width="1024" height="586"/>
+                    <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="150" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUy-mD-wp7">
-                    <rect key="frame" x="0.0" y="872" width="1024" height="430"/>
+                    <frame key="frameInset" minY="872" width="1024" height="430"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </scrollView>
                 <pageControl opaque="NO" tag="151" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-PT-Pqr">
-                    <rect key="frame" x="493" y="1300" width="39" height="37"/>
-                    <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <frame key="frameInset" minX="493" minY="1300" width="39" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <connections>
                         <action selector="changePage:" destination="-1" eventType="valueChanged" id="hj8-EC-yLl"/>
                     </connections>
                 </pageControl>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="flower1" translatesAutoresizingMaskIntoConstraints="NO" id="oEq-tG-fbW">
+                    <frame key="frameInset" minX="841" minY="494" width="96" height="99"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="flower3" translatesAutoresizingMaskIntoConstraints="NO" id="Tc5-Cg-dwN">
+                    <frame key="frameInset" minX="73" minY="530" width="184" height="73"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="flower4" translatesAutoresizingMaskIntoConstraints="NO" id="af0-RQ-BSs">
+                    <frame key="frameInset" minX="463" minY="564" width="129" height="41"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
-        <image name="background3" width="1024" height="768"/>
-        <image name="background_pattern1black" width="960" height="117"/>
-        <image name="background_pattern2black" width="960" height="73"/>
-        <image name="sec_artifacts" width="333" height="203"/>
-        <image name="title3" width="245" height="38"/>
+        <image name="background2" width="1024" height="305"/>
+        <image name="background_pattern4" width="1024" height="586"/>
+        <image name="flower1" width="96" height="99"/>
+        <image name="flower3" width="184" height="73"/>
+        <image name="flower4" width="129" height="41"/>
+        <image name="sec_artifacts" width="457" height="331"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>

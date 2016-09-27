@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8919BC4CC8A35FE7B2C2B87BB78996A096FD06BB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "56A4399A3F90F6325DA978CBED1C955D55B4037E" : 9223372036854775807,
+    "8919BC4CC8A35FE7B2C2B87BB78996A096FD06BB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B3494CAD-B5E8-441C-AE38-5664ABD95DEF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "56A4399A3F90F6325DA978CBED1C955D55B4037E" : "NMGApp\/",
+    "8919BC4CC8A35FE7B2C2B87BB78996A096FD06BB" : "THYApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "THYApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "THYApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zyhndesign\/NMGApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "56A4399A3F90F6325DA978CBED1C955D55B4037E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zyhndesign\/THYApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8919BC4CC8A35FE7B2C2B87BB78996A096FD06BB"
+    }
+  ]
+}

@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "sec_artifacts.png"
+      "filename" : "5_23.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "sec_artifacts@2x.png",
+      "filename" : "1_56.png",
       "scale" : "2x"
     },
     {

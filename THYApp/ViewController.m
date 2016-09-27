@@ -192,7 +192,7 @@
 {
     if (landBtnState && menuLandscapeBtn != nil)
     {
-        [menuLandscapeBtn setTitleColor:[UIColor colorWithRed:251/255.0 green:25/255.0 blue:5/255.0 alpha:1] forState:UIControlStateNormal];
+        [menuLandscapeBtn setTitleColor:[UIColor colorWithRed:231/255.0 green:70/255.0 blue:90/255.0 alpha:1] forState:UIControlStateNormal];
         [menuHumanityBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [menuStoryBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [menuCommunityBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -205,7 +205,7 @@
     
     if (humanityBtnState && menuHumanityBtn != nil)
     {
-        [menuHumanityBtn setTitleColor:[UIColor colorWithRed:251/255.0 green:25/255.0 blue:5/255.0 alpha:1] forState:UIControlStateNormal];
+        [menuHumanityBtn setTitleColor:[UIColor colorWithRed:231/255.0 green:70/255.0 blue:90/255.0 alpha:1] forState:UIControlStateNormal];
         [menuLandscapeBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [menuStoryBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [menuCommunityBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -217,7 +217,7 @@
     
     if (storyBtnState && menuStoryBtn != nil)
     {
-        [menuStoryBtn setTitleColor:[UIColor colorWithRed:251/255.0 green:25/255.0 blue:5/255.0 alpha:1] forState:UIControlStateNormal];
+        [menuStoryBtn setTitleColor:[UIColor colorWithRed:231/255.0 green:70/255.0 blue:90/255.0 alpha:1] forState:UIControlStateNormal];
         [menuHumanityBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [menuLandscapeBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [menuCommunityBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -229,7 +229,7 @@
     
     if (communityState && menuCommunityBtn != nil)
     {
-        [menuCommunityBtn setTitleColor:[UIColor colorWithRed:251/255.0 green:25/255.0 blue:5/255.0 alpha:1] forState:UIControlStateNormal];
+        [menuCommunityBtn setTitleColor:[UIColor colorWithRed:231/255.0 green:70/255.0 blue:90/255.0 alpha:1] forState:UIControlStateNormal];
         [menuHumanityBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [menuStoryBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [menuLandscapeBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

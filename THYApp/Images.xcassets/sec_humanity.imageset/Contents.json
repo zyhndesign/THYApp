@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "sec_humanity.png"
+      "filename" : "5_15.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "sec_humanity@2x.png",
+      "filename" : "1_32.png",
       "scale" : "2x"
     },
     {

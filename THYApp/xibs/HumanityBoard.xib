@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HumanityViewController">
@@ -15,39 +16,70 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="1336"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="BUd-FL-hAX">
-                    <rect key="frame" x="0.0" y="0.0" width="1024" height="790"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="background_pattern2white" translatesAutoresizingMaskIntoConstraints="NO" id="fVY-ZN-ixk">
-                    <rect key="frame" x="0.0" y="712" width="1024" height="80"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="title2" translatesAutoresizingMaskIntoConstraints="NO" id="3ZF-4Y-uJo">
-                    <rect key="frame" x="370" y="775" width="283" height="48"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="BUd-FL-hAX">
+                    <frame key="frameInset" width="1024" height="338"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="150" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFn-4f-124">
-                    <rect key="frame" x="0.0" y="825" width="1024" height="480"/>
+                    <frame key="frameInset" minY="825" width="1024" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </scrollView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="sec_humanity" translatesAutoresizingMaskIntoConstraints="NO" id="mpQ-RZ-zLF">
-                    <rect key="frame" x="302" y="147" width="426" height="336"/>
+                    <frame key="frameInset" minX="302" minY="13" width="426" height="336"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="background_pattern4" translatesAutoresizingMaskIntoConstraints="NO" id="nCN-JP-ut2">
+                    <frame key="frameInset" minY="775" width="1024" height="586"/>
+                    <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <pageControl opaque="NO" tag="151" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="RZX-2S-nss">
-                    <rect key="frame" x="492" y="1299" width="39" height="37"/>
-                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <frame key="frameInset" minX="492" minY="1299" width="39" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="pageIndicatorTintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <connections>
                         <action selector="pageChange:" destination="-1" eventType="valueChanged" id="Egf-FT-rLy"/>
                     </connections>
                 </pageControl>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="title2" translatesAutoresizingMaskIntoConstraints="NO" id="3ZF-4Y-uJo">
+                    <frame key="frameInset" minX="248" minY="363" width="541" height="206"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="background_pattern2" translatesAutoresizingMaskIntoConstraints="NO" id="bvm-JD-7bt">
+                    <frame key="frameInset" minX="302" minY="587" width="402" height="99"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="background_pattern3" translatesAutoresizingMaskIntoConstraints="NO" id="tps-x4-thP">
+                    <frame key="frameInset" minX="324" minY="710" width="335" height="101"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="flower2" translatesAutoresizingMaskIntoConstraints="NO" id="i5V-Fy-8xR">
+                    <frame key="frameInset" minX="27" minY="615" width="90" height="65"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="flower3" translatesAutoresizingMaskIntoConstraints="NO" id="y37-nf-t5g">
+                    <frame key="frameInset" minX="832" minY="670" width="184" height="73"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
-        <image name="background2" width="1024" height="768"/>
-        <image name="background_pattern2white" width="960" height="73"/>
-        <image name="sec_humanity" width="311" height="203"/>
-        <image name="title2" width="245" height="41"/>
+        <image name="background3" width="1024" height="334"/>
+        <image name="background_pattern2" width="402" height="99"/>
+        <image name="background_pattern3" width="335" height="101"/>
+        <image name="background_pattern4" width="1024" height="586"/>
+        <image name="flower2" width="90" height="65"/>
+        <image name="flower3" width="184" height="73"/>
+        <image name="sec_humanity" width="353" height="212"/>
+        <image name="title2" width="504" height="154"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>
