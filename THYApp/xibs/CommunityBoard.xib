@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -53,10 +52,10 @@
         </view>
     </objects>
     <resources>
-        <image name="background4" width="1024" height="479"/>
+        <image name="background4" width="1024" height="640"/>
         <image name="flower3" width="184" height="73"/>
-        <image name="sec_community" width="358" height="225"/>
-        <image name="title4" width="587" height="157"/>
+        <image name="sec_community" width="373" height="255"/>
+        <image name="title4" width="232" height="57"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
